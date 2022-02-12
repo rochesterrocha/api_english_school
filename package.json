@@ -1,0 +1,23 @@
+{
+  "name": "api-english-school",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/api/index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^7.0.0-alpha.4",
+    "sequelize-cli": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
